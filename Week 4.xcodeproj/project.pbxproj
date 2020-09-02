@@ -15,6 +15,8 @@
 		B9864C1825000F440099AC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9864C1625000F440099AC06 /* LaunchScreen.storyboard */; };
 		B9864C2325000F440099AC06 /* Week_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9864C2225000F440099AC06 /* Week_4Tests.swift */; };
 		B9864C2E25000F440099AC06 /* Week_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9864C2D25000F440099AC06 /* Week_4UITests.swift */; };
+		B9864C3C250011B40099AC06 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9864C3B250011B40099AC06 /* UserData.swift */; };
+		B9864C3E250019F10099AC06 /* Listview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9864C3D250019F10099AC06 /* Listview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B9864C2925000F440099AC06 /* Week 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9864C2D25000F440099AC06 /* Week_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_4UITests.swift; sourceTree = "<group>"; };
 		B9864C2F25000F440099AC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9864C3B250011B40099AC06 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B9864C3D250019F10099AC06 /* Listview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B9864C0B25000F410099AC06 /* AppDelegate.swift */,
 				B9864C0D25000F410099AC06 /* SceneDelegate.swift */,
 				B9864C0F25000F410099AC06 /* ContentView.swift */,
+				B9864C3D250019F10099AC06 /* Listview.swift */,
+				B9864C3B250011B40099AC06 /* UserData.swift */,
 				B9864C1125000F440099AC06 /* Assets.xcassets */,
 				B9864C1625000F440099AC06 /* LaunchScreen.storyboard */,
 				B9864C1925000F440099AC06 /* Info.plist */,
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9864C3E250019F10099AC06 /* Listview.swift in Sources */,
 				B9864C0C25000F410099AC06 /* AppDelegate.swift in Sources */,
 				B9864C0E25000F410099AC06 /* SceneDelegate.swift in Sources */,
+				B9864C3C250011B40099AC06 /* UserData.swift in Sources */,
 				B9864C1025000F410099AC06 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Week 4/Preview Content\"";
+				DEVELOPMENT_TEAM = X5NLJFYJ96;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Week 4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Week 4/Preview Content\"";
+				DEVELOPMENT_TEAM = X5NLJFYJ96;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Week 4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
